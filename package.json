@@ -1,0 +1,24 @@
+{
+  "name": "angular-nominatim",
+  "version": "1.0.0",
+  "description":
+    "An Angular service for Geocoding and Reverse Geocoding using the data stored at Open Street Map server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "angular4",
+    "geocoding",
+    "reverse-geocoding",
+    "openstreetmaps",
+    "nominatim",
+    "nominatim.openstreetmaps.org"
+  ],
+  "author": "Shrinivas Shukla",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  }
+}
