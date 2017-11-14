@@ -3,6 +3,5 @@ node_modules
 npm-debug.log
 package-lock.json
 # Ignored files
-*.js
-*.map
-*.d.ts
+*.ts
+!*.d.ts
