@@ -13,4 +13,14 @@ export interface ReverseGeocodeResponse {
   readonly importance: number;
   readonly addresstype: string;
   readonly name: string;
+  readonly address?: {
+    country?: string;
+    state?: string;
+    county?: string;
+    city?: string;
+    suburb?: string;
+    'major streets'?: string;
+    'major and minor streets'?: string;
+    building?: string;
+  };
 }
